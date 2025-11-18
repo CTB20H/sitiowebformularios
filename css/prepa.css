@@ -1,0 +1,10 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    font-size: 22px;
+    text-align: center;
+}
