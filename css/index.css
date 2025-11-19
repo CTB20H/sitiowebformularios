@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif+Display&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
 * {
     padding: auto;
     margin: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Inter';
 }
 
 header {
@@ -25,8 +26,17 @@ li {
     margin: 15px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(202, 202, 162);
+}
+
 .Intro {
   font-size: 18px;
+  font-weight: normal;
   padding: 28px;
   width: 60%; 
   margin-left: auto;
@@ -36,7 +46,27 @@ li {
   border: 10px;
   border-radius: 20px;
 }
-body {
-    background-color: rgb(202, 202, 162);
+
+.Objetivos {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 28px;
+  width: 60%; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  background-color: rgb(151, 233, 233);
+  border: 10px;
+  border-radius: 20px;
 }
 
+footer {
+  background-color: rgb(151, 233, 233);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 98%;
+  margin: auto;
+  border: 10px;
+  border-radius: 20px;
+}
