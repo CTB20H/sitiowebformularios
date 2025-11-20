@@ -23,7 +23,7 @@ header {
     border-radius: 5px;
     background-color: rgb(151, 233, 233);
     font-size: 22px;
-    color: rgb(102, 78, 78);
+    color: black;
 }
 
 .introduccion {
@@ -41,6 +41,45 @@ header {
 }
 
 .I {
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+.II {
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+.III {
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+.IV {
     flex-grow: 1;
     font-size: 18px;
     text-align: justify;
