@@ -7,10 +7,11 @@
 
 header {
     text-align: center;
-    border: 10px;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 15px;
+    width: 100%;
+    border: 5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin: 0;
     background-color: rgb(151, 233, 233);
     font-size: 22px;
     color: rgb(102, 78, 78);
@@ -24,9 +25,16 @@ ul {
 li {
     display: inline;
     margin: 15px;
+    font-weight: bold;
+}
+
+li a:hover {
+  color: rgb(102, 27, 18);
+  cursor: pointer;
 }
 
 .Finternos {
+    flex-grow: 1;
     width: 60%;
     padding: 28px;
     margin-left: auto;
@@ -41,11 +49,14 @@ li {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   margin: 0;
-  background-color: rgb(202, 202, 162);
+  background-color: rgba(248, 240, 129, 0.795);
 }
 
 .link {
+    font-size: 22px;
+    padding: 10px;
     display: block; 
     width: 200px;
     margin: 20px auto; 
@@ -57,6 +68,17 @@ body {
 }
 
 .link a:hover {
-    color: rgb(85, 18, 27);
+    color: antiquewhite;
     cursor: pointer;
+}
+
+footer {
+  background-color: rgb(151, 233, 233);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+  border: 5px;
+  border-radius: 5px;
 }

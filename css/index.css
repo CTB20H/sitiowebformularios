@@ -7,10 +7,11 @@
 
 header {
     text-align: center;
-    border: 10px;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 15px;
+    width: 100%;
+    border: 5px;
+    border-radius: 5px;
+    margin: 0;
+    padding-bottom: 10px;
     background-color: rgb(151, 233, 233);
     font-size: 22px;
     color: rgb(102, 78, 78);
@@ -24,6 +25,12 @@ ul {
 li {
     display: inline;
     margin: 15px;
+    font-weight: bold;
+}
+
+li a:hover {
+  color: rgb(102, 27, 18);
+  cursor: pointer;
 }
 
 body {
@@ -31,12 +38,13 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background-color: rgb(202, 202, 162);
+  background-color: rgba(248, 240, 129, 0.795);
 }
 
 .Intro {
+  flex-grow: 1;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 430;
   padding: 28px;
   width: 60%; 
   margin-left: auto;
@@ -48,8 +56,9 @@ body {
 }
 
 .Objetivos {
+  flex-grow: 1;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 430;
   padding: 28px;
   width: 60%; 
   margin-left: auto;
@@ -65,8 +74,8 @@ footer {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  width: 98%;
+  width: 100%;
   margin: auto;
-  border: 10px;
-  border-radius: 20px;
+  border: 5px;
+  border-radius: 5px;
 }

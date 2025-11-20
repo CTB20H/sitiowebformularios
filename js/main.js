@@ -5,13 +5,12 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyDrqpxW184Omneywk7jj2gO5yfLmCOdtgI",
-    authDomain: "sitiowebformularios.firebaseapp.com",
-    projectId: "sitiowebformularios",
-    storageBucket: "sitiowebformularios.firebasestorage.app",
-    messagingSenderId: "1092171196018",
-    appId: "1:1092171196018:web:f8e4887c2b621b2dcb04eb"
-  };
-
+  apiKey: "AIzaSyDrqpxW184Omneywk7jj2gO5yfLmCOdtgI",
+  authDomain: "sitiowebformularios.firebaseapp.com",
+  projectId: "sitiowebformularios",
+  storageBucket: "sitiowebformularios.firebasestorage.app",
+  messagingSenderId: "1092171196018",
+  appId: "1:1092171196018:web:f8e4887c2b621b2dcb04eb"
+};
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);

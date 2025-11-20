@@ -1,17 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif+Display&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
 * {
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     font-family:'Inter';
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgba(248, 240, 129, 0.795);
 }
 
 header {
+    width: 100%;
     text-align: center;
-    border: 10px;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 15px;
+    margin: 0;
+    padding: 15px 0;
+    border: 5px;
+    border-radius: 5px;
     background-color: rgb(151, 233, 233);
     font-size: 22px;
     color: rgb(102, 78, 78);
+}
+
+.introduccion {
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 430;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+.I {
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 0;
+}
+
+.inciso {
+    flex-grow: 1; 
+    padding-right: 15px;
+}
+
+footer {
+  background-color: rgb(151, 233, 233);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+  border: 5px;
+  border-radius: 5px;
 }
