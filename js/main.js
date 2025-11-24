@@ -14,3 +14,9 @@
 };
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
+  // Sección del formulario Factores internos
+
+
+  

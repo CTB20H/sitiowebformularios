@@ -144,6 +144,22 @@ table,tr,th,td {
 .Tinteres {
     width: 100%;
 }
+
+.Enviar {
+   text-align: center;
+   
+}
+#btnEnviar {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 430;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(151, 233, 233);
+    cursor: pointer;
+}
+
+
 footer {
   background-color: rgb(151, 233, 233);
   text-align: center;
