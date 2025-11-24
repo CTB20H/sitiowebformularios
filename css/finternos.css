@@ -92,6 +92,26 @@ header {
     border-radius: 15px;
 }
 
+.DvTabla {
+    flex-grow: 1;
+    font-size: 18px;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
+}
+
+.tabla {
+    width: 100%;
+}
+table,tr,th,td {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
 ul {
     list-style: none;
 }
