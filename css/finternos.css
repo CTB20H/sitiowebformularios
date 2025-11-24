@@ -40,6 +40,22 @@ header {
     border-radius: 15px;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 0;
+}
+
+.inciso {
+    flex-grow: 1; 
+    padding-right: 15px;
+}
+
 .I {
     flex-grow: 1;
     font-size: 18px;
@@ -112,22 +128,22 @@ table,tr,th,td {
     border-collapse: collapse;
     padding: 5px;
 }
-ul {
-    list-style: none;
+
+.intereses {
+    flex-grow: 1;
+    font-size: 18px;
+    width: 60%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 10px;
+    border-radius: 15px;
 }
 
-li {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 4px 0;
+.Tinteres {
+    width: 100%;
 }
-
-.inciso {
-    flex-grow: 1; 
-    padding-right: 15px;
-}
-
 footer {
   background-color: rgb(151, 233, 233);
   text-align: center;
