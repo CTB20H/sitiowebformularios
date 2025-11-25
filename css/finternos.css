@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+.Volver {
+    font-size: 18px;
+    text-align: left;
+    padding: 2px;
+    font-weight: bold;
+}
+
 body {
     display: flex;
     flex-direction: column;

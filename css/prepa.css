@@ -5,6 +5,12 @@
     font-family: 'Inter';
 }
 
+.Volver {
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
 header {
     text-align: center;
     width: 100%;
