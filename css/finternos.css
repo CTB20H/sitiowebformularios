@@ -158,7 +158,9 @@ table,tr,th,td {
     background-color: rgb(151, 233, 233);
     cursor: pointer;
 }
-
+#btnEnviar:hover {
+    color: rgb(20, 23, 85);
+}
 
 footer {
   background-color: rgb(151, 233, 233);
