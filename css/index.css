@@ -43,30 +43,63 @@ body {
 
 .Intro {
   flex-grow: 1;
-  font-size: 18px;
-  font-weight: 430;
   padding: 28px;
   width: 60%; 
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
   background-color: rgb(151, 233, 233);
   border: 4px solid black;
   border-radius: 20px;
 }
+.ContenedorIntro {
+  display: flex;
+  gap: 25px;
+  padding: 5px;
+}
+.Introtxt {
+  font-size: 18px;
+  font-weight: 430;
+  text-align: justify;
+}
+.Introimg {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.img {
+  max-width: 110%;
+  border: 4px black solid;
+  border-radius: 15px;
+}
+.imagen {
+  max-width: 100%;
+  border: 4px black solid;
+  border-radius: 15px;
+}
 
 .Objetivos {
   flex-grow: 1;
-  font-size: 18px;
-  font-weight: 430;
   padding: 28px;
   width: 60%; 
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
   background-color: rgb(151, 233, 233);
   border: 4px solid black;
   border-radius: 20px;
+}
+.ContenedorObj {
+  display: flex;
+  gap: 25px;
+  padding: 5px;
+}
+.Objtxt {
+  font-size: 18px;
+  font-weight: 430;
+  text-align: justify;
+}
+.Objimg {
+  flex-grow: 1;
+  text-align: center;
 }
 
 footer {

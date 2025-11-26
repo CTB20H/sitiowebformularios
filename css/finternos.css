@@ -43,7 +43,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -72,7 +72,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -85,7 +85,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -98,7 +98,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -111,7 +111,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -123,7 +123,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
@@ -144,7 +144,7 @@ table,tr,th,td {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(151, 233, 233);
-    border: 10px;
+    border: 4px black solid;
     border-radius: 15px;
 }
 
