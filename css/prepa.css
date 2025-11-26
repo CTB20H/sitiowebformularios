@@ -38,20 +38,6 @@ li a:hover {
   color: rgb(102, 27, 18);
   cursor: pointer;
 }
-
-.Finternos {
-    flex-grow: 1;
-    width: 60%;
-    padding: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
-    text-align: justify;
-    background-color: rgb(151, 233, 233);
-    border: 10px;
-    border-radius: 15px;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -60,13 +46,34 @@ body {
   background-color: rgba(248, 240, 129, 0.795);
 }
 
+.Finternos {
+    flex-grow: 1;
+    width: 60%;
+    padding: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 233, 233);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.Contenedor {
+    display: flex;
+    gap: 25px;
+    padding: 5px;
+}
+.Finternostxt {
+    flex-grow: 2;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 430;
+}
 .link {
     font-size: 22px;
     padding: 10px;
     display: block; 
     width: 200px;
     margin: 20px auto; 
-    border: 5px solid black;
+    border: 4px solid black;
     border-radius: 15px;
     text-align: center;
     background-color: rgb(151, 233, 233);
@@ -76,6 +83,18 @@ body {
 .link a:hover {
     color: rgb(20, 23, 85);
     cursor: pointer;
+}
+
+.dvimg {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    width: 60%;
+    border: 4px solid black;
+    border-radius: 10px;
 }
 
 footer {
